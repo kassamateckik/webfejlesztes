@@ -1,8 +1,28 @@
 /* CSS komment */
-body p {
-    color: green;
+body p{
+     color: green;/* !important <-nem használjuk!!! */
 }
 
-span{
-    color: purple;
+p span{
+    color: blue;
+}
+
+#modern{
+    color: cyan;
+}
+
+.golyo{
+    color: black;
+}
+
+body{
+    background-color: bisque;
+}
+
+p {
+    background-color: white;
+}
+
+body>span {
+    background-color: greenyellow;
 }
