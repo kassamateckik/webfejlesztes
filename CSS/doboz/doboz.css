@@ -13,7 +13,7 @@
     width: 75%;
 }
 
-#felso_doboz{
+.felso_doboz{
     background-color: lightgray;
     width: 50%;
 }
@@ -31,4 +31,40 @@
 #lila{
     background-color: purple;
     height: 10vh;
+}
+
+.felso_doboz ~ div {
+    height: 80px;
+    width: 70%;
+}
+
+#szegely{
+    background-color: lightcoral;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: blue; */
+    border: 2px solid blue;
+}
+
+#vegyes{
+    background-color: aqua;
+    border-right: 3px red dashed;
+    border-bottom: 2px dotted green;
+    margin-bottom: 50px;
+}
+
+#kulsomargo{
+    background-color: palevioletred;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#kulsodiv{
+    background-color: red;
+}
+
+#belsodiv{
+    background-color: lightblue;
+    margin-left: 20px;
+    margin-top: 30px;
 }
