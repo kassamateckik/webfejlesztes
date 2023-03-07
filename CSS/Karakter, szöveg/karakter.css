@@ -1,0 +1,18 @@
+#labdarugas{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h1{
+    font-weight: normal;
+}
+
+p{
+    font-size: 20px;
+}
+
+#foci{
+    color: red;
+    font-size: 2em;
+    
+}
