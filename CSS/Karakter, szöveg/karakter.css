@@ -5,14 +5,34 @@
 
 h1{
     font-weight: normal;
+
 }
 
 p{
-    font-size: 20px;
+    font-size: 8px;
 }
 
 #foci{
     color: red;
     font-size: 2em;
     
+}
+
+#labda{
+    color: blue;
+    font-size: 2rem;
+}
+
+html{
+    font-size: 20px;
+}
+
+#USA{
+    font-variant: small-caps;
+    font-size: 12px;
+}
+
+#IFA{
+    color: darkgreen;
+    font-family: 'Josefin Sans', sans-serif;
 }
