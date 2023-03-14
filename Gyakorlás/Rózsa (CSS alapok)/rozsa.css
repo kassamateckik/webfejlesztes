@@ -25,3 +25,9 @@ img{
 p{
     text-align: justify;
 }
+
+.erdekesseg{
+    font-style: italic;
+    font-family: cursive;
+    border: 2px;
+}
