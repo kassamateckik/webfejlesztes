@@ -6,5 +6,23 @@ div{
 }
 
 #doboz1{
-    background-color: rgb(200, 100, 150);
+    background-color: rgb(200, 40, 0);
+    opacity: 40%;
+
+}
+
+#doboz2{
+    background-color: rgb(255, 255, 255 );
+}
+
+#doboz3{
+    background-color: #006500;
+}
+
+#doboz4{
+    background-color: rgba(196, 23, 17, 80%);
+}
+
+#doboz5{
+    background-color: hsl(300, 50%, 50%);
 }
