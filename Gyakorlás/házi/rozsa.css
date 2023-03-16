@@ -1,0 +1,51 @@
+body{
+    background-color: indianred;
+    color: indigo;
+}
+
+div{
+    width: 80%;
+    background-color: lightcyan;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+h2{
+    border-left: 5px solid black;
+    padding-left: 5px;
+    font-variant: small-caps;
+}
+
+img{
+    width: 15em;
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+.erdekesseg{
+    font-style: italic;
+    font-family: cursive;
+    border: 2px indianred dashed;
+    padding: 8px;
+}
+
+span{
+    text-transform:uppercase;
+}
+
+
+a{
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+    font-size: 120%;
+    padding: 5px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc(50% - 2px);
+}
+
