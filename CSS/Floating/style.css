@@ -8,6 +8,7 @@ body{
     border: 1px solid black;
     margin: auto;
     padding: 5px;
+    text-align: justify;
 }
 
 .bal{
@@ -19,8 +20,26 @@ body{
 }
 
 .jobb{
-    background-color: brown;
+    background-color: rgb(75, 64, 36);
     width: 75px;
     height: 300px;
     float: right;
+    margin-left: 5px;
+    color: white;
+}
+
+#also{
+    background-color: lightcoral;
+    overflow: auto;
+}
+
+#also_alatti{
+    background-color: lightgreen;
+    padding: 5px;
+    margin-top: 5px;
+    height: 300px;
+    /* visible, hidden, scroll, auto */
+    overflow: auto;
+    /* normal, nowrap, pre-wrap, pre */
+    white-space: pre-wrap;
 }
