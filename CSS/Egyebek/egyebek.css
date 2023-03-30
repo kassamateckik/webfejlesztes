@@ -12,11 +12,12 @@ div{
 
 #fenti{
     box-shadow: 5px 3px 4px blue;
-    cursor: cell;
+    cursor: pointer;
 }
 
 #lenti{
     box-shadow: 0px 0px 20px red;
+    cursor: grab;
 }
 
 p{
@@ -38,4 +39,39 @@ li{
     list-style-position: inside;
     /* margin-left: -40px;    */
     padding: 5px;
+}
+
+a{
+    background-color: rgb(197, 197, 0);
+    border:1px solid black;
+    margin: auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:link{
+    color: black;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: yellow;
+    text-decoration: underline;
+    border: 1px dashed green;
+    cursor: alias;
+}
+
+table{
+    background-color: white;
+    margin: auto;
 }
