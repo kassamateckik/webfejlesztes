@@ -73,5 +73,26 @@ a:hover{
 
 table{
     background-color: white;
-    margin: auto;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+}
+
+td, th{
+    border:1px solid black;
+    /* padding: 20px; */
+    height: 40px;
+    width: 150px;
+    text-align: center;     /*vizszintes*/
+    vertical-align: middle; /*fuggoleges*/
+}
+
+body{
+    background-image: url(fruit_salad.png), url(books.png);
+    background-repeat: repeat-x, no-repeat;
+    background-position: bottom center, top right;
+    background-size: 50px, 200px;
+    background-attachment: scroll, fixed;
 }
