@@ -157,3 +157,48 @@ nav a:not(:hover){
 #tetejere:not(:hover){  
     transition: 1s;
 }
+
+@media screen and (max-width: 630px) {  
+    aside{
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:350px) {
+    nav a{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+
+    /* aside{
+        float: right;
+        width: 5%;
+    } */
+
+    aside{
+        display: none;
+    }
+}
+
+@media print{
+    nav{
+        display: none;
+    }
+
+    article{
+        border:none;
+    }
+
+    body{
+        font-size: 1.2em;
+    }
+
+    #tetejere{
+        display: none;
+    }
+}
