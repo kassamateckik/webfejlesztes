@@ -5,3 +5,12 @@ body {
     padding: 20px;
     font-size: 1.2em;
 }
+
+.table{
+    width: 80%;
+}
+
+img{
+    background-color: red !important;
+    border: 5px dashed black !important;
+}
